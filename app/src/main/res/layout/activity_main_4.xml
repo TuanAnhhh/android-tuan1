@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7B93B"
+    android:textAlignment="center"
+    tools:context="com.example.student.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="80dp"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="364dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:background="#DAB000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="357dp"
+        android:layout_height="46dp"
+        android:background="#000000"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="349dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:text="Fogot your password"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="359dp"
+        android:drawableEnd="@drawable/Vectors"
+        android:drawableRight="@drawable/Vector"
+        android:layout_height="69dp"
+        android:background="#DAB000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="password"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+</android.support.constraint.ConstraintLayout>
